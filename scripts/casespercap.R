@@ -5,7 +5,7 @@ library(lubridate)
 #Change date
 date <- "2020-07-20"
 cases_data <- read_csv("cases.csv")
-income_data <- read_csv("income.csv")
+income_data <- read_csv("population.csv")
 cases_data$`Report Date` <- mdy(cases_data$`Report Date`)
 
 #Sort, Filter and Organize Data
