@@ -3,7 +3,7 @@ library(dplyr)
 library(lubridate)
 
 #change data and select locality
-data <- read_csv("cases3.csv")
+data <- read_csv("cases.csv")
 location_str <- "Galax"
 
 #Filter and structure data
